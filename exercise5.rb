@@ -1,11 +1,9 @@
-def reverse_sign (fahrenheit) 
+def convert_temp (fahrenheit)
 	(c = (fahrenheit - 32) * 5/9)
 end
 
-puts "What is the temperature today in Fahrenheit"
+puts "What is the temperature today in Fahrenheit?"
 
 fahrenheit = gets.chomp.to_i
 
-temperature = reverse_sign (fahrenheit)
-
-puts "So the temperature in Celcius is #{temperature}!"
+puts "Therefore the temperature in Celcius is #{convert_temp(fahrenheit)}"
