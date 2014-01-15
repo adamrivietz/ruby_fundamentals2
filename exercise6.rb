@@ -23,5 +23,3 @@ asterisk (grocery_list).sort
 grocery_list.delete("salmon")
 puts "Who likes salmon anyways!? Peace out salmon!"
 asterisk (grocery_list).sort
-
-
